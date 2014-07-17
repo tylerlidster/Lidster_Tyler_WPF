@@ -10,7 +10,7 @@ GoTo Training Week 2
 
 
 //Create a variable to hold the persons name
-//Do not use quotes or it will displayed what is typed within them
+//Do not use quotes or it will display what is typed within them
 //Text String with quotes - Variable without quotes
 var name = prompt("Please Type In Your Name");
 

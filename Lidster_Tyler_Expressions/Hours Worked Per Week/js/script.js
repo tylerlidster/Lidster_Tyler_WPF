@@ -1,7 +1,7 @@
 /*
  Tyler Lidster
  WPF 1407 Section 01
- GoTo Training Week 2
+ Expressions - Personal
  */
 
 

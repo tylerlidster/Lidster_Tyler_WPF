@@ -20,7 +20,7 @@ var classLine = className + " " + classNumber + " Section " + sectionNumber;
 console.log(classLine);
 
 //Creates the third line of heading using assignmentName
-var assignmentName = prompt ("Please enter the name of your assignment.")
+var assignmentName = prompt ("Please enter the name of your assignment.");
 console.log(assignmentName);
 
 

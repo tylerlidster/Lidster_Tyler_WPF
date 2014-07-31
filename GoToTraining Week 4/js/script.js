@@ -59,7 +59,10 @@ while(isNaN(max) || max === ""){
 //Arguments go inside of function call
 //randomizer(1, 10);
 //randomizer(0, 5);
-randomizer(min, max);
+
+//Create a variable to "catch" the returned value
+var results = randomizer(min, max);
+console.log("The returned value is "+results);
 
 
 
@@ -69,7 +72,10 @@ function randomizer(minNum, maxNum){
 
     //Generate a random number in between 2 numbers
     var randomNumber = Math.random()*(maxNum-minNum)+Number(minNum);
-    console.log(randomNumber);
+  //console.log(randomNumber); - Not a good way of doing it
+
+    //Returning the value
+    return randomNumber;
 }
 
 

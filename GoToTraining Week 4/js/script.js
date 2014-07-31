@@ -71,12 +71,19 @@ console.log("The returned value is "+results);
 function randomizer(minNum, maxNum){
 
     //Generate a random number in between 2 numbers
-    var randomNumber = Math.random()*(maxNum-minNum)+Number(minNum);
+    var randomNumber = Math.round(Math.random()*(maxNum-minNum)+Number(minNum);
   //console.log(randomNumber); - Not a good way of doing it
 
     //Returning the value
     return randomNumber;
 }
 
+
+//To get 15 random numbers
+//Create a for loop
+//for loop
+for(var i=0; 1<15; i++){
+    console.log(randomizer(min, max))
+}
 
 

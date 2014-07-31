@@ -83,7 +83,7 @@ function randomizer(minNum, maxNum){
 //Create a for loop
 //for loop
 for(var i=0; 1<15; i++){
-    console.log(randomizer(min, max))
+    console.log(randomizer(min, max));
 }
 
 

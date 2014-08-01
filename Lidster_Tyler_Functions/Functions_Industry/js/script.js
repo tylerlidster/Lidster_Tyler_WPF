@@ -10,7 +10,8 @@ function tripCost(){
     var rooms = prompt("How many rooms will you need?");//prompt the user
 
     var totalCost = (nights * rooms) * (100);//calculate the result
-    console.log(totalCost);//send answer to user
+
+
 
 }
 tripCost();
